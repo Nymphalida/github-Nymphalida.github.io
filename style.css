@@ -1,0 +1,132 @@
+* { 
+	max-width: 1278px;	
+	margin: auto;
+}
+
+.container {
+  display: flex;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  margin: auto;
+  
+  }
+.container div {
+  width: 1200px; 
+  height: 400px;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  line-height: 1.1;
+  }
+
+.container div h2 {
+  font-size: 35px;
+  margin: 245px 0px 0px 245px;
+  }
+.container div h1 {
+  font-size: 69px;
+  margin: 0 0 0 245px;
+  }
+
+.section {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  color: #222;
+  width: 740px; 
+  line-height: 1.5;
+  font-size: 15px;
+  }
+#intro {
+  font-size: 20px;  
+  margin-top: 50px;
+  }
+
+ul {
+  list-style-type: square;
+  padding-top: 30px;
+}
+
+.quote {
+  width: 800px;
+  position: relative;
+  text-align: left;
+  margin: 50px;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+blockquote {
+  font-family:'Abril Fatface', cursive;
+  font-size: 50px;
+  color: white;
+  background-color: #444444;
+  padding-bottom: 50px;
+  padding-top: 35px;
+  padding-right: 20px;
+  padding-left: 40px;
+  }
+
+blockquote::before {
+  content: '“';
+  font-size: 110px;
+  position: absolute;
+  top:0;
+  left:0;
+  
+  }
+
+  
+.section h1 {
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 70px;
+}
+.section h2 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+#achievements p {
+  line-height: 1.5;
+  font-size: 16px; 
+  font-weight: 300;
+  margin-top: 30px;
+}
+.section h3 {
+  font-family: 'Merriweather', serif;
+}
+
+#experience p {
+  line-height: 1.5;
+  font-size: 16px; 
+  font-weight: 300;
+  ;}
+  
+#training p {
+  line-height: 1.5;
+  font-size: 16px; 
+  font-weight: 300;
+  }
+
+.line {
+  width: 740px;
+  border-bottom: 5px solid black;
+  position: center;
+  padding-top: 50px;
+  }
+
+#interests h1 {
+  padding-top: 50px;
+}
+#interests p {
+  line-height: 1.5;
+  font-size: 16px; 
+  font-weight: 300;
+ }
+#interests ul {
+   padding-bottom: 50px; 
+}
